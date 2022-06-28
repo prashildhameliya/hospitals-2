@@ -6,7 +6,7 @@ import About from "./Container/About/About";
 import Medicine from "./Container/Medicine/Medicine";
 import Doctor from "./Container/Doctor/Doctor";
 import Contact from "./Container/Contact/Contact";
-
+import ContactList from "./Container/Contact/ContactList";
 import Footer from "./Componet/Footer/Footer"
 import Home from "./Container/Home";
 import Auth from "./Container/Auth/Auth";
@@ -22,7 +22,7 @@ function App() {
 <Route exact path ={"/"}  component={Home}/>
         <Route exact path ={"/About"}  component={About}/>
         <Route exact path ={"/Contact"}  component={Contact}/>
-  
+        <Route exact path ={"/ContactList"}  component={ContactList}/>
         {/* <Route exact path ={"/Departments"}  component={Departments}/>   */}
         <Route exact path ={"/Doctor"}  component={Doctor}/>
         <Route exact path ={"/Medicine"}  component={Medicine}/>
