@@ -1,6 +1,4 @@
-import { StartRounded } from "@mui/icons-material";
-import { startTransition } from "react";
-import * as ActionTypes from "./ActionTypes";
+import * as ActionTypes from "../ActionType";
 
 const initalState = {
     counter:0
@@ -17,7 +15,7 @@ const initalState = {
         case ActionTypes.DECREMENT_COUNTER:
             return {
                 ...state,
-                counter:state.counter + 1
+                counter:state.counter - 1
             };
             default:
                 return state;
