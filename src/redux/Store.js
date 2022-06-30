@@ -4,6 +4,6 @@ import { rootReducer } from './reducer';
 
 export const configureStore = () => {
     let store = createStore(rootReducer, applyMiddleware(thunk))
-    
+
     return store;
 }
